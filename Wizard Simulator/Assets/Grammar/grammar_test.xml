@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE grammar PUBLIC "-//W3C//DTD GRAMMAR 1.0//EN"
+                  "http://www.w3.org/TR/speech-grammar/grammar.dtd">
+
+<grammar xmlns="http://www.w3.org/2001/06/grammar" xml:lang="en"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:schemaLocation="http://www.w3.org/2001/06/grammar 
+                             http://www.w3.org/TR/speech-grammar/grammar.xsd"
+         version="1.0" mode="voice" root="spell">
+
+<meta name="author" content="Carlos Ramirez"/>
+
+<rule id="spell">
+   <item repeat="0-6">
+      <one-of>
+         <item>missile</item>
+         <item>bubble</item>
+         <item>beam</item>
+         <item>impart</item>
+         <item>freezing</item>
+         <item>burning</item>
+         <item>levitating</item>
+         <item>time</item>
+         <item>spinning</item>
+         <item>rolling</item>
+         <item>pitching</item>
+         <item>size</item>
+         <item>top</item>
+         <item>bottom</item>
+         <item>left</item>
+         <item>right</item>
+         <item>front</item>
+         <item>back</item>
+         <item>great</item>
+         <item>greater</item>
+         <item>greatest</item>
+         <item>less</item>
+         <item>lesser</item>
+         <item>micro</item>
+      </one-of>
+   </item>
+</rule>
+</grammar>

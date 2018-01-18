@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cbda2531e2782c4fa31e313247e4766, type: 3}
+  m_Name: Basic Terrain
+  m_EditorClassIdentifier: 
+  autoUpdate: 1
+  randomFillPercent: 23
+  numOfSmoothingPasses: 5
+  groundPrefab: {fileID: 1000011261566534, guid: 4486905e16f99a44aa5f5c82147ece5b,
+    type: 2}
+  groundSpacer: 8
+  emptyThresholdSize: 15
+  terrainThresholdSize: 15
+  pathSize: 2
+  connectionType: 0
